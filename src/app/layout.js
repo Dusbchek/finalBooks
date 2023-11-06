@@ -17,7 +17,6 @@ export default function RootLayout({ children }) {
         <StoreProvider>
           <App>{children}</App>
         </StoreProvider>
-        <script src="https://cdn.jsdelivr.net/npm/flowbite/dist/flowbite.js"></script>
 
       </body>
     </html>
