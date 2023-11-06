@@ -21,7 +21,7 @@ export function TarjetaPedido() {
         <div className="flex flex-row">
           <img
             src="https://m.media-amazon.com/images/I/51Bqvp8L-wL.jpg"
-            alt=""
+            alt="strategy"
             className="w-[70px] h-[110px] md:w-[110px] md:h-[170px] ml-4 md:ml-4 rounded-lg transition duration-500 hover:scale-105"
           />
           <div className="flex flex-row">
@@ -75,7 +75,7 @@ export function TarjetaPedido() {
         <div className="flex flex-row">
           <img
             src="https://images.cdn2.buscalibre.com/fit-in/360x360/fe/08/fe0851fc22365a047d349d8469fdfe5a.jpg"
-            alt=""
+            alt="strategy"
             className="w-[70px] h-[110px] md:w-[110px] md:h-[170px] ml-4 md:ml-4 rounded-lg transition duration-500 hover:scale-105"
           />
           <div className="flex flex-row">
