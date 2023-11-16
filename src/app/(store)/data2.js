@@ -1,7 +1,7 @@
 
 "use client";
 import React, { useState, useEffect } from "react";
-import ProductItem from "../components/ProductItem";
+import ProductItem from "@/components/ProductItem";
 
 export default function Data({categ}) {
   const apiKey = 'AIzaSyBX2JQeCcenjKoaqS1rQiZwXOiPzfk5QfA';

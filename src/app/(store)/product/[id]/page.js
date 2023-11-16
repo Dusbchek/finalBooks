@@ -2,8 +2,8 @@
 
 import AddToCart from '@/components/AddToCart'
 import React, { useState, useEffect } from "react";
-import Data from '@/app/data2'; 
-import DataNum from "@/app/data3"
+import Data from '../../data2'; 
+import DataNum from "../../data3"
 export default function ProductDetailPage({ params: { id } }) {
 
 

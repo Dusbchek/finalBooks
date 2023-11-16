@@ -1,6 +1,6 @@
 import Data from './data2'
 import SearchButton from '@/components/SearchButton'
-import { Banner } from '../components/banner'
+import { Banner } from '@/components/banner'
 export default function Home() {
   return (
 

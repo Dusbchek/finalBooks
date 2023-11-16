@@ -1,7 +1,7 @@
 
 "use client";
 import React, { useState, useEffect } from "react";
-import ProductItem2 from "../components/ProductItem2";
+import ProductItem2 from "@/components/ProductItem2";
 
 export default function DataVer({categ}) {
   const apiKey = 'AIzaSyBX2JQeCcenjKoaqS1rQiZwXOiPzfk5QfA';

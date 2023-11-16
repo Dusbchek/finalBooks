@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 export function Login() {
   return (
@@ -43,12 +44,12 @@ export function Login() {
             <label for="remember" className='ml-2 mt-3 text-sm font-medium text-gray-900 '>Remember me</label>
           </div>
 
-          <button
-            type="submit"
+          <Link
+            href={'/dashboard'}
             className='w-auto text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm mx-auto w-full sm:w-auto px-5 py-2.5 text-center '
           >
             Sign in
-          </button>
+          </Link>
         </form>
       </div>
       <div className='w-3/5 h-screen hidden sm:inline-block md:block'>
