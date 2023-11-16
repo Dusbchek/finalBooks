@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import ProductItem from "@/components/ProductItem";
 
 export default function DataNum({categ}) {
-  const apiKey = 'AIzaSyBX2JQeCcenjKoaqS1rQiZwXOiPzfk5QfA';
+  const apiKey = 'AIzaSyAX85wksEb9ppM_SOymqnYP9NMbTuMAJCQ';
   const [books, setBooks] = useState([]);
   const [bookData, setBookData] = useState([]);
 
