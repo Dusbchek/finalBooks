@@ -4,9 +4,9 @@ import React, { useState } from 'react';
 export function Banner() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const images = [
-    "https://scontent.fntr1-1.fna.fbcdn.net/v/t39.30808-6/399958466_879424233707099_8002769092585052406_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=B7DhM9MW2EcAX_hQVNV&_nc_oc=AQk1JgwNwZ5XEmEKBg4HgbTlarvPzC5QqDpBMP5B0i4S7kUPYXGOMva4pmjWD7QAtTU&_nc_ht=scontent.fntr1-1.fna&oh=00_AfBrTiPefM9OFXSa1_rFevW4hdJSQoEgnny8wcKj9boOkQ&oe=654DEED5",
-    "https://scontent.fntr1-2.fna.fbcdn.net/v/t39.30808-6/399891736_879485717034284_5386204945098827939_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=gAD82G1cXqkAX9OBCfk&_nc_ht=scontent.fntr1-2.fna&oh=00_AfAe8Ovjgb9GuicL4DfpjBmBoYIzzLyCXLMBe--A4XouLA&oe=654CCAD5",
-    "https://scontent.fntr1-1.fna.fbcdn.net/v/t39.30808-6/399937039_879488100367379_5521668960059582335_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=nniLCOhuftgAX9omBFH&_nc_ht=scontent.fntr1-1.fna&oh=00_AfCKNu7eSwr7ZtbE70x364gBjnNJTe2qRdJLOR-JQOJX0Q&oe=654DBA27"
+    "https://scontent.fntr1-1.fna.fbcdn.net/v/t39.30808-6/401822618_884446803204842_4594266605929078488_n.jpg?stp=dst-jpg_s2048x2048&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGH0iS4FERkUjYebZfzKj2d8qixbF0SvbTyqLFsXRK9tDf0TVmreCIrTSPjIJ5GvEA0BOup3UD6V9_Z_fVstzq4&_nc_ohc=4fHOpZ38hIgAX8y7ZTk&_nc_ht=scontent.fntr1-1.fna&oh=00_AfB22iyZFNdyKsWHZpxtu5mr76sRP6F85fEO-IwY9yhRsQ&oe=655A0A7F",
+    "https://scontent.fntr1-2.fna.fbcdn.net/v/t39.30808-6/401844541_884446709871518_4792058254960132951_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGRUEi2Aao3_yL7ZyxGdqt9ZLAXY6vdR2xksBdjq91HbNy9vgN9GEyUrbD6aC2mQ5epZgCiQBbTHobDa8HnYwJl&_nc_ohc=YWWEMXEWCkIAX9AKozM&_nc_ht=scontent.fntr1-2.fna&oh=00_AfAVORxaNRLWu38Ur-VL3I43k0YWQp0HgRr89Tf3u3VKWg&oe=655A54CC",
+    "https://scontent.fntr1-1.fna.fbcdn.net/v/t39.30808-6/401849085_884446616538194_6414346000010287521_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHKHG_FvM_pC9UU1jnos04D6FLeBMOWziroUt4Ew5bOKgQLu8LPMKEykjzGgufe52s2gwWP8IE881NMbtff4FOK&_nc_ohc=sU_iLRnL_o0AX__61XK&_nc_oc=AQlVxr3RxhqDcyyOBOUYC2fWsqAUl3-4gU0phsom9QYSyA2buhUhLAkKmG83i_YL4Wo&_nc_ht=scontent.fntr1-1.fna&oh=00_AfDAE_wCSu8lGA7MZT0oa-usZc71aMrUJtZdnQ_GgV55hw&oe=65597830"
   ];
 
   const nextSlide = () => {
