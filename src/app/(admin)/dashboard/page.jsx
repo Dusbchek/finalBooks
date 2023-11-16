@@ -31,7 +31,7 @@ export default function Dashboard() {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-5">
       <div className="lg:col-span-4 lg:px-7">
-        <p className="text-xl text-center mb-5">Resumen</p>
+        <p className="text-xl text-center mb-5 font-semibold">Resumen</p>
         <div className="grid gird-cols-1 md:grid-cols-3">
           {data.map((item, index) => (
             <DashboardDataCart key={index} title={item.title} num={item.num} />
@@ -45,7 +45,7 @@ export default function Dashboard() {
         <BestSellers sells={dinero} />
 
         <div>
-          <p className="text-xl text-center mb-3">Gráfico de ganancias</p>
+          <p className="text-xl text-center mb-3 font-semibold">Gráfico de ganancias</p>
           <Image src={'/chart.png'} width={1000} height={1000} alt="chart"></Image>
         </div>
       </div>
