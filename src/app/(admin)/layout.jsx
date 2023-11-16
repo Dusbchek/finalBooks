@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
                         {children}
                     </div>
                 </StoreProvider>
-
+                <script src='chart.js' async></script>
             </body>
         </html>
     )
