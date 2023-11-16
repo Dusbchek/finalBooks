@@ -21,7 +21,7 @@ export default function AddBook() {
                          </div>
                     <div>
                         <label for="description" class="block mb-4 text-sm font-medium text-gray-900 dark:text-white">Description</label>
-                        <textarea type="text" id="company" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-full mb-2 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="This captivating book immerses you in a world of adventures and emotions. With intriguing characters and a gripping plot, it will take you to unexplored places as you explore thought-provoking universal themes. An essential read that will keep you hooked from start to finish" required>
+                        <textarea type="text" id="company" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full h-[80%] mb-2 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="This captivating book immerses you in a world of adventures and emotions. With intriguing characters and a gripping plot, it will take you to unexplored places as you explore thought-provoking universal themes. An essential read that will keep you hooked from start to finish" required>
                         </textarea>
                     </div>
                     <div>
