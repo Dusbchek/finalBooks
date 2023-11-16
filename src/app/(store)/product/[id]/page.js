@@ -14,7 +14,7 @@ export default function ProductDetailPage({ params: { id } }) {
     if (id) {
       // Realiza una solicitud a la API de Google Books utilizando el ID
       // Asegúrate de utilizar el mismo apiKey y formato de solicitud.
-      const apiKey = "AIzaSyBX2JQeCcenjKoaqS1rQiZwXOiPzfk5QfA";
+      const apiKey = "AIzaSyAX85wksEb9ppM_SOymqnYP9NMbTuMAJCQ";
       const fetchBookDetails = async () => {
         try {
           const response = await fetch(
